@@ -195,14 +195,6 @@ for post_val in range(0, len(y_pred)):
 
 
 f1_score(df["label"], output_array)
-for index in range(0,len(y_pred)): #limit the range to view the output for mentioned few
-    post_text = data.iloc[index]["text"]
-    print(data.iloc[index]["id"])
-    print(y_pred[index])
-    plt.figure(figsize=(40, 3))
-    plt.subplot(131)
-    plt.bar(label, y_pred[index])
-    plt.show()
 
 
 # In[ ]:
