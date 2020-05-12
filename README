@@ -1,4 +1,4 @@
 1. Run the following command in the command prompt by first setting the path to the current folder 
 	pip install -r requirements.txt
-2. Run the "train_model.ipynb" file which trains the model and generated the tokenizer.pkl and model_weights file
-3. Run the "test_model.ipynb" file directly with the provided test data to see the output
+2. Run the "train_model.py" file which trains the model and generated the tokenizer.pkl and model_weights file
+3. Run the "test_model.py" file directly with the provided test data to see the output
